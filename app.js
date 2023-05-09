@@ -19,5 +19,5 @@ app.get("/login", (req, res) => {
 /* app.listen(3030, () => {
   console.log("Servidor corriendo en el puerto 3030");
 }); */
-const port = precess.env.PORT || 3030;
+const port = process.env.PORT || 3030;
 app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
